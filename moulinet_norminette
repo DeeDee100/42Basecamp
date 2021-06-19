@@ -1,0 +1,21 @@
+SHIFT-ALT-A
+CTRL+K CTRL+C
+
+
+norminette -R CheckForbiddenSourceHeader
+
+gcc -Wall -Wextra -Werror *.c
+
+
+ptr is the pointer itself.
+*ptr is the value it points to.
+&ptr is the address of the pointer.
+
+
+
+
+
+alias rodar='norminette -R CheckForbiddenSourceHeader && gcc -Wall -Wextra -Werror *.c && ./a.out'
+alias norma='norminette -R CheckForbiddenSourceHeader'
+alias compila='gcc -Wall -Wextra -Werror *.c'
+alias a='./a.out'
